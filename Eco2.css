@@ -1,0 +1,43 @@
+.desktop-4,
+.desktop-4 * {
+  box-sizing: border-box;
+}
+.desktop-4 {
+  background: #b3854f;
+  height: 690px;
+  position: relative;
+  overflow: hidden;
+}
+._2108-i-605-035-s-m-005-c-12-1 {
+    width: 2000px;  
+    height: 712px;
+    position: absolute;
+    left: -44px;
+    top: -55px;
+    object-fit: cover;
+  }
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.eco-craft {
+  color: #4d3f32;
+  text-align: left;
+  font-family: "JejuHallasan-Regular";
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 70.07px;
+  top: 17.81px;
+  width: 276.93px;
+  height: 34.66px;
+}
+.image-1 {
+  width: 79.82px;
+  height: 45.85px;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+  object-fit: cover;
+}
+

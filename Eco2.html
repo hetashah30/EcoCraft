@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Eco2.css">
+    <link rel="icon" type="img/jpg" href="\images\Logo.png">
+    <title>EcoCraft</title>
+</head>
+<body>
+    <div class="desktop-4">
+        <img
+          class="_2108-i-605-035-s-m-005-c-12-1"
+          src="\images\background.png"
+        />
+        <div class="group-1">
+          <div class="eco-craft">EcoCraft</div>
+          <img class="image-1" src="\images\Logo.png" />
+        </div>
+      </div>
+
+    <div style="width: 100%;">
+    <div style="display: flex; justify-content: left;">
+        <textarea name="desc" id="desc" cols="80" rows="5" placeholder="Write your product description here..." style="font-size: large;"></textarea>
+    </div>
+    
+    <div style="display: flex; justify-content: right;">
+
+    <div style="display: flex; justify-content: center; align-items: flex-end;" action><h3>Upload your product image here:    </h3>   <br>
+        <input class="form-control form-control-lg" id="formFileLg" type="file" capture="camera" style="font-size: 15px; color: rgb(0, 0, 0);">
+        <label for="formFileLg" class="form-label"></label>
+            </form></div>
+        </div>
+        <div class="create"><a href="\EcoCraft\EcoCraft3.html">
+<button style="position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); height: 50px; width:100px">Create!</button></a></div>
+        
+    <script>
+        function openGoogleDrive() {
+            window.open("https://drive.google.com/drive/u/0/folders", "_blank");
+        }
+
+        // var myDiv = document.getElementById("Old_cases");
+        // myDiv.addEventListener("click", openGoogleDrive);
+        // function openGoogleDrive() {
+        //     window.open("https://drive.google.com/drive/u/0/folders", "_blank");
+        // }
+
+        var myDiv = document.getElementById("Current_case");
+        myDiv.addEventListener("click", openGoogleDrive);
+    </script> 
+    <script>
+    function goToEcoCraft3() {
+        window.location.href = "EcoCraft3.html";
+    }
+</script>
+</body>
+</html>
